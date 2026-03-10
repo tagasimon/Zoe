@@ -56,10 +56,10 @@ Provide all three:
 ## Step 5 — Save the Speech
 
 Save the completed speech to:
-`projects/toastmasters-[YYYY-MM-DD]/speech.md`
+`projects/toastmasters/[YYYY-MM-DD]/speech.md`
 
 Also save the keyword outline to:
-`projects/toastmasters-[YYYY-MM-DD]/outline.md`
+`projects/toastmasters/[YYYY-MM-DD]/outline.md`
 
 ---
 

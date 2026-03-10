@@ -57,7 +57,7 @@ Provide all of the following:
 ## Step 4 — Save the Script
 
 Save the completed script to:
-`marketing-team/03-Social-Media/post-drafts/[YYYY-MM-DD]-[topic-slug].md`
+`teams/marketing/03-Social-Media/post-drafts/[YYYY-MM-DD]-[topic-slug].md`
 
 ---
 

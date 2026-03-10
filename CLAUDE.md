@@ -29,7 +29,12 @@ Active workstreams live in `projects/`. Each has a README with status and deadli
 - `projects/erp-proposals/` — Pitching ERP solutions to businesses
 - `projects/polish-my-cv/` — SaaS product in development
 - `projects/client-acquisition/` — Finding first paying clients
-- `projects/toastmasters-12-march/` — Speech due 12 March 2026
+- `projects/toastmasters/` — All Toastmasters speeches (subfolders per speech date)
+
+## Teams
+Ongoing department workspaces live in `teams/`. No end date — always active.
+
+- `teams/marketing/` — Social media, content, campaigns, graphics
 
 ## Skills
 Skills live in `.claude/skills/skill-name/SKILL.md`. Build a skill when you notice the same workflow repeating.
@@ -37,6 +42,7 @@ Skills live in `.claude/skills/skill-name/SKILL.md`. Build a skill when you noti
 ### Active Skills
 - `toastmasters-speech-writer` — Draft prepared speeches (5-7 min, humorous, storytelling)
 - `tiktok-writer` — Write TikTok scripts for AI Challenge and brand content
+- `brain-scan` — Weekly audit of Claude sessions; surfaces what to build as skills, plugins, agents, or CLAUDE.md entries
 
 ### Skills Backlog
 - `email-triage` — Read inbox, sort by priority, create tasks for actionable items
