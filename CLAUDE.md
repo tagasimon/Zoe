@@ -32,14 +32,16 @@ Active workstreams live in `projects/`. Each has a README with status and deadli
 - `projects/toastmasters-12-march/` — Speech due 12 March 2026
 
 ## Skills
-Skills live in `.claude/skills/skill-name/SKILL.md`. None built yet.
-Build a skill when you notice the same workflow repeating.
+Skills live in `.claude/skills/skill-name/SKILL.md`. Build a skill when you notice the same workflow repeating.
+
+### Active Skills
+- `toastmasters-speech-writer` — Draft prepared speeches (5-7 min, humorous, storytelling)
+- `tiktok-writer` — Write TikTok scripts for AI Challenge and brand content
 
 ### Skills Backlog
 - `email-triage` — Read inbox, sort by priority, create tasks for actionable items
 - `proposal-builder` — Generate a proposal or pitch deck from a client brief
 - `client-prospecting` — Search the web for leads matching a target profile
-- `speech-writer` — Draft a Toastmasters/presentation speech from bullet points
 
 ## Decision Log
 Log important decisions in `decisions/log.md` — append-only.
@@ -52,6 +54,9 @@ Claude Code maintains persistent memory across conversations. Patterns, preferen
 
 ## Templates
 Reusable templates in `templates/`. Start with `templates/session-summary.md`.
+
+## Brand Assets
+Company logos, profile, and brand files live in `brand-assets/`. Always use these when creating proposals, pitch decks, or any external content. See `brand-assets/README.md` for what's available.
 
 ## References
 - SOPs: `references/sops/`
