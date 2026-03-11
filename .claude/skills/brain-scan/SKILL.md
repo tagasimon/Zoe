@@ -158,8 +158,37 @@ Output the full report in this format:
 ## Step 6 — Save the Report
 
 Save to:
-`projects/workflow-discovery/[YYYY-MM-DD]-report.md`
+`projects/brain-scan/[YYYY-MM-DD]-report.md`
 
 Create the directory if it doesn't exist.
 
 Also update the Skills Backlog in `CLAUDE.md` with any new skill ideas identified.
+
+---
+
+## Step 7 — Generate Presentation
+
+Always generate a PPTX after saving the report.
+
+Use pptxgenjs (run with `NODE_PATH=$(npm root -g) node script.js`).
+
+**Slide structure (5 slides):**
+1. **Title** — dark navy background, report date, 4 stat callouts (sessions, days, patterns found, skills to build)
+2. **Patterns Found** — table rows with icon, pattern label, session count badge, friction badge (High=red, Medium=amber, Low=green)
+3. **Skills to Build** — one card per skill with priority circle, skill name in monospace, frequency tag, description
+4. **Beyond Skills** — two-column: MCP Plugin (left) and Agent opportunity (right)
+5. **Next Actions** — dark background, 3 numbered action cards
+
+**Design tokens:**
+- Navy: `1E2761`, Ice: `CADCFC`, Teal: `0D9488`, Light bg: `F4F6FB`
+- Headers: Georgia, Body: Calibri, Skill names: Consolas
+- No `#` prefix on hex colors (pptxgenjs requirement)
+- Use `NODE_PATH=$(npm root -g)` when running the script
+
+Save PPTX to: `projects/brain-scan/[YYYY-MM-DD]-report.pptx`
+
+After generating, run a content QA:
+```bash
+python3 -m markitdown projects/brain-scan/[YYYY-MM-DD]-report.pptx
+```
+Check for missing content or leftover placeholders before reporting done.

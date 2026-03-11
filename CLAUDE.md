@@ -26,6 +26,7 @@ Get Elastic Technologies Ltd to its first paying clients and revenue. Everything
 ## Projects
 Active workstreams live in `projects/`. Each has a README with status and deadlines.
 
+- `projects/statuscash/` — WhatsApp Status advertising marketplace (concept stage)
 - `projects/erp-proposals/` — Pitching ERP solutions to businesses
 - `projects/polish-my-cv/` — SaaS product in development
 - `projects/client-acquisition/` — Finding first paying clients
@@ -43,11 +44,15 @@ Skills live in `.claude/skills/skill-name/SKILL.md`. Build a skill when you noti
 - `toastmasters-speech-writer` — Draft prepared speeches (5-7 min, humorous, storytelling)
 - `tiktok-writer` — Write TikTok scripts for AI Challenge and brand content
 - `brain-scan` — Weekly audit of Claude sessions; surfaces what to build as skills, plugins, agents, or CLAUDE.md entries
+- `client-prospecting` — Search web for leads by industry/service, score fit, write outreach messages, create Google Tasks
+- `daily-briefing` — Morning: pull tasks, calendar, unread emails → prioritised day plan
+- `weekly-standup` — End of week: what moved, what's stuck, draft WhatsApp update for Alvin + Phillip
 
 ### Skills Backlog
 - `email-triage` — Read inbox, sort by priority, create tasks for actionable items
 - `proposal-builder` — Generate a proposal or pitch deck from a client brief
-- `client-prospecting` — Search the web for leads matching a target profile
+- `dev-session-handoff` — Read StatusCash codebase state, output what's done and what's next
+- `website-to-pitch` — Input a URL, run marketing analysis, output a PPTX presentation in one step
 
 ## Decision Log
 Log important decisions in `decisions/log.md` — append-only.
