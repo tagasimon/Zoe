@@ -8,7 +8,7 @@
 | Service | Description | Status |
 |---------|-------------|--------|
 | Custom Software | Websites, mobile apps, automations for businesses | Active |
-| ERP Solutions | Enterprise resource planning — pitching to businesses | Active pitching |
+| ERP Solutions | Enterprise resource planning — pitching to businesses | On hold — long sales cycle |
 | Polish My CV | SaaS product for CV polishing | In development |
 
 ## Tools

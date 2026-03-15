@@ -47,6 +47,8 @@ Skills live in `.claude/skills/skill-name/SKILL.md`. Build a skill when you noti
 - `client-prospecting` — Search web for leads by industry/service, score fit, write outreach messages, create Google Tasks
 - `daily-briefing` — Morning: pull tasks, calendar, unread emails → prioritised day plan
 - `weekly-standup` — End of week: what moved, what's stuck, draft WhatsApp update for Alvin + Phillip
+- `job-hunter` — Scrape Uganda job boards (or a given URL) for matching roles, tailor CV, write cover letter, create Gmail application drafts
+- `personal-finance` — Debt tracking, budgeting, savings plan, retirement planning, and 48-hour spending protocol for when money arrives
 
 ### Skills Backlog
 - `email-triage` — Read inbox, sort by priority, create tasks for actionable items

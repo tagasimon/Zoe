@@ -96,7 +96,35 @@ Create one task per HIGH priority email. Skip if a task for that email already e
 
 ---
 
-## Step 4 — Compose the Briefing
+## Step 4 — Personal Finance Snapshot
+
+Read `projects/personal-finance/snapshot.md` and `projects/personal-finance/plan.md`.
+
+Extract and display:
+- Current phase (1–5) and what it means
+- Any debts that are due within 7 days
+- Whether savings target was hit last month (if income exists)
+- One-line status: e.g. "Phase 1 — No income. MTN loan due in 3 days."
+
+If income is 0: flag it clearly. Do not soften it.
+
+---
+
+## Step 4b — Brain Scan (Mondays only)
+
+**Only run this step if today is Monday.**
+
+Run the brain-scan skill inline:
+- Scan the last 7 days of Claude sessions
+- Surface any new recurring patterns
+- Output a short summary (3–5 bullet points max — no full report)
+- Note: full report + PPTX is saved to `projects/brain-scan/` by the skill
+
+If today is not Monday, skip this step entirely.
+
+---
+
+## Step 5 — Compose the Briefing
 
 Output in this format:
 
@@ -141,15 +169,38 @@ Output in this format:
 
 ---
 
-**Focus Recommendation**
+**Financial Pulse**
 
-Based on what's loaded today, suggest Simon's top 1–2 priorities in one sentence. Be direct.
+| | |
+|---|---|
+| Phase | [e.g. Phase 1 — Crisis / Phase 3 — Stabilising] |
+| Income status | [0 / Amount/month] |
+| Urgent debts | [e.g. MTN 220k due in 3 days — PAY THIS] |
+| Savings | [0 / Running total vs 6.6M target] |
 
-Example: *"Clear the overdue ERP proposal for Kampala Breweries first — it's been sitting 3 days. Then prep for the 2PM call."*
+> One-line verdict: *"You are X months from clearing Standard Chartered. Emergency fund is Y% built."* (skip if Phase 1)
 
 ---
 
-## Step 5 — Confirm Tasks Created
+**Brain Scan Summary** *(Mondays only)*
+
+- [Pattern 1 spotted this week]
+- [Pattern 2]
+- [Skill to build / CLAUDE.md update recommended]
+
+> Full report: `projects/brain-scan/[DATE]-report.md`
+
+---
+
+**Focus Recommendation**
+
+Based on everything above — calendar, tasks, emails, finances — give Simon his top 1–2 priorities for today in one direct sentence.
+
+Example: *"Pay MTN loan before anything else — it's 2 days overdue. Then send the ERP proposal to Kampala Breweries."*
+
+---
+
+## Step 7 — Confirm Tasks Created
 
 After creating tasks, list them at the bottom of the briefing:
 
@@ -163,7 +214,7 @@ If no HIGH emails were found, say: *"No new tasks created from emails."*
 
 ---
 
-## Step 6 — Flag Blockers
+## Step 8 — Flag Blockers
 
 If any of these exist, call them out explicitly:
 - Overdue task older than 2 days
