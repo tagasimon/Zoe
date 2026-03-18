@@ -166,6 +166,6 @@ Next week: [top 1-2 focus areas]
 
 ## Step 6 — Save the Report
 
-Save to: `projects/client-acquisition/weekly-standups/[YYYY-MM-DD]-standup.md`
+Save to: `pipeline/client-acquisition/weekly-standups/[YYYY-MM-DD]-standup.md`
 
 Create the folder if it doesn't exist.

@@ -24,13 +24,28 @@ Get Elastic Technologies Ltd to its first paying clients and revenue. Everything
 - Always triage inbox by priority before presenting
 
 ## Projects
-Active workstreams live in `projects/`. Each has a README with status and deadlines.
+Revenue-generating products live in `projects/`. These are the things that make money.
 
 - `projects/statuscash/` — WhatsApp Status advertising marketplace (concept stage)
-- `projects/erp-proposals/` — Pitching ERP solutions to businesses
 - `projects/polish-my-cv/` — SaaS product in development
-- `projects/client-acquisition/` — Finding first paying clients
-- `projects/toastmasters/` — All Toastmasters speeches (subfolders per speech date)
+
+## Pipeline
+Sales and business development work lives in `pipeline/`.
+
+- `pipeline/client-acquisition/` — Finding first paying clients
+- `pipeline/erp-proposals/` — Pitching ERP solutions to businesses
+
+## Career
+Personal development and financial management lives in `career/`.
+
+- `career/personal-finance/` — Debt tracking, budgeting, savings plan
+- `career/toastmasters/` — All Toastmasters speeches (subfolders per speech date)
+- `career/applications/` — Job applications
+
+## Operations
+Internal tools and audits live in `operations/`.
+
+- `operations/brain-scan/` — Weekly Claude session audits; surfaces skills, plugins, CLAUDE.md entries to build
 
 ## Teams
 Ongoing department workspaces live in `teams/`. No end date — always active.
@@ -80,6 +95,16 @@ Company logos, profile, and brand files live in `brand-assets/`. Always use thes
 - New quarter → update `context/goals.md`
 - Decision made → log in `decisions/log.md`
 - Recurring workflow → build a skill in `.claude/skills/`
+
+## Output
+All generated files (presentations, reports, exports, drafts) go in `output/`.
+
+- `output/presentations/` — generated PPTX, slide decks
+- `output/reports/` — generated reports (PDF, MD)
+- `output/exports/` — data exports, spreadsheets
+- `output/drafts/` — work-in-progress documents
+
+These are gitignored — never committed to GitHub.
 
 ## Archives
 Don't delete old work — move it to `archives/` instead.

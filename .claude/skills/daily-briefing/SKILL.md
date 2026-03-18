@@ -96,9 +96,58 @@ Create one task per HIGH priority email. Skip if a task for that email already e
 
 ---
 
+## Step 3c — Create Calendar Events from Emails
+
+For every HIGH priority email, read the full email body:
+
+```bash
+gws gmail users messages get --params '{
+  "userId": "me",
+  "id": "[MESSAGE_ID]",
+  "format": "full"
+}'
+```
+
+Scan the body for:
+- Explicit dates/times (e.g. "meeting on Friday at 2pm", "call on March 18 at 10am")
+- Deadlines (e.g. "please respond by Thursday", "submission closes 20 March")
+- Scheduled events or appointments
+
+For each date/time found, create a Google Calendar event:
+
+```bash
+gws calendar events insert --params '{"calendarId": "primary"}' --json '{
+  "summary": "[Event title derived from email subject/context]",
+  "description": "Auto-created from email.\nFrom: [sender]\nSubject: [subject]\nSnippet: [first 150 chars of body]",
+  "start": {
+    "dateTime": "[DATE]T[TIME]:00+03:00",
+    "timeZone": "Africa/Nairobi"
+  },
+  "end": {
+    "dateTime": "[DATE]T[END_TIME]:00+03:00",
+    "timeZone": "Africa/Nairobi"
+  },
+  "reminders": {
+    "useDefault": false,
+    "overrides": [
+      {"method": "popup", "minutes": 30}
+    ]
+  }
+}'
+```
+
+Rules:
+- Default event duration: 1 hour if no end time is specified
+- For deadlines with no time: create an all-day event using `"date": "[DATE]"` instead of `"dateTime"`
+- Skip if the date is in the past
+- Skip if a calendar event with the same summary already exists on that date (check today's events pulled in Step 1)
+- Use "Africa/Nairobi" timezone (GMT+3) for all events
+
+---
+
 ## Step 4 — Personal Finance Snapshot
 
-Read `projects/personal-finance/snapshot.md` and `projects/personal-finance/plan.md`.
+Read `career/personal-finance/snapshot.md` and `career/personal-finance/plan.md`.
 
 Extract and display:
 - Current phase (1–5) and what it means
@@ -118,7 +167,35 @@ Run the brain-scan skill inline:
 - Scan the last 7 days of Claude sessions
 - Surface any new recurring patterns
 - Output a short summary (3–5 bullet points max — no full report)
-- Note: full report + PPTX is saved to `projects/brain-scan/` by the skill
+- Note: full report + PPTX is saved to `operations/brain-scan/` by the skill
+
+If today is not Monday, skip this step entirely.
+
+---
+
+## Step 4c — Trending Repos Scan (Mondays only)
+
+**Only run this step if today is Monday.**
+
+Fetch: `https://trendshift.io/github-trending-repositories`
+
+Scan the trending repositories and filter for ones relevant to Simon's context:
+- AI tools, automation, Claude/LLM integrations
+- Web/mobile development tools (websites, apps for clients)
+- Business tools (CRM, lead gen, outreach, invoicing)
+- SaaS boilerplates or starter kits (useful for Polish My CV or client projects)
+- Social media automation (TikTok, Twitter/X)
+- Productivity / second-brain tools
+- Free alternatives to paid SaaS tools
+
+For each relevant repo, output:
+- Repo name + link
+- One-line description of what it does
+- Why it's relevant to Simon specifically (client work / Elastic / skills / money)
+
+Skip: gaming, hardware, academic papers, crypto/blockchain, Chinese-language only tools, anything requiring enterprise infrastructure.
+
+Output max 5–8 repos. Quality over quantity.
 
 If today is not Monday, skip this step entirely.
 
@@ -188,7 +265,17 @@ Output in this format:
 - [Pattern 2]
 - [Skill to build / CLAUDE.md update recommended]
 
-> Full report: `projects/brain-scan/[DATE]-report.md`
+> Full report: `operations/brain-scan/[DATE]-report.md`
+
+---
+
+**Trending Repos This Week** *(Mondays only)*
+
+| Repo | What it does | Why it matters to you |
+|------|-------------|----------------------|
+| [name](url) | ... | ... |
+
+> Source: trendshift.io/github-trending-repositories
 
 ---
 
@@ -202,15 +289,19 @@ Example: *"Pay MTN loan before anything else — it's 2 days overdue. Then send 
 
 ## Step 7 — Confirm Tasks Created
 
-After creating tasks, list them at the bottom of the briefing:
+After creating tasks and calendar events, list them at the bottom of the briefing:
 
 ```
 Tasks created from emails:
 - "Reply: Your SSL will pause in -3 days — Namecheap" → Action Required, due today
 - "Reply: 10 Days Left — District Conference Awards" → Action Required, due today
+
+Calendar events created from emails:
+- "Call with Kampala Breweries" → March 18 at 2:00pm
+- "Proposal submission deadline — Ministry of Health" → March 20 (all-day)
 ```
 
-If no HIGH emails were found, say: *"No new tasks created from emails."*
+If no HIGH emails were found, say: *"No new tasks or calendar events created from emails."*
 
 ---
 

@@ -1,9 +1,10 @@
 # Personal Finance Snapshot — Simon Kazooba
 
-_Last updated: 2026-03-14_
+_Last updated: 2026-03-18_
 
-## Status: CRISIS MODE
-Income is 0. Debts are due. No buffer.
+## Status: ACTIVE — First client payment received
+
+**First paying client secured:** School management system — 1,500,000 deposit received (2,500,000 total, 1,000,000 remaining to collect)
 
 ---
 
@@ -22,10 +23,11 @@ Income is 0. Debts are due. No buffer.
 
 | Debt | Total Balance | Monthly Payment | Status |
 |------|---------------|-----------------|--------|
-| Standard Chartered salary loan | ~10,000,000 | 1,200,000/month | 2 months behind (2.4M arrears) |
-| MTN Mobile Loan | ~220,000 | Full amount | Due in ~1 week |
-| Viola (personal loan) | 400,000 | Full amount | Due end of March 2026 |
-| **Total Debt** | **~10,620,000** | | |
+| Standard Chartered personal loan | 11,348,904 | 1,241,810/month | Overdue: 2,035,915 — agreed to pay end of March 2026. Final installment: Oct 2026 (8 months remaining). Rate: 17.5% reducing. Agreement: 20103430992531 |
+| MTN Mobile Loan | 165,549 | Full amount | Active |
+| Viola (personal loan) | 0 | — | **CLEARED 2026-03-18** |
+| Alvin (loaned out) | 25,000 | — | Simon lent to Alvin 2026-03-18 — to be repaid |
+| **Total Debt** | **~11,514,453** | | |
 
 ---
 

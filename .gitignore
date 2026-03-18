@@ -3,3 +3,17 @@ CLAUDE.local.md
 .claude/settings.local.json
 node_modules/
 credentials/
+
+# Generated output files — not committed to git
+output/presentations/
+output/reports/
+output/exports/
+output/drafts/
+!output/.gitkeep
+
+# Common generated file types (anywhere in repo)
+*.pptx
+*.xlsx
+*.docx
+*.pdf
+*.zip

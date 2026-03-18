@@ -9,9 +9,9 @@ _Last updated: 2026-03-14_
 **Goal:** Stop the bleeding. Don't drown.
 
 ### Immediate Actions
-- [ ] Pay MTN loan (220k) — due in ~1 week
-- [ ] Pay Viola (400k) — due end of March 2026
-- [ ] Call Standard Chartered — inform them of situation, negotiate a payment pause or restructure
+- [x] Pay MTN loan — partially paid, balance 165,549 remaining
+- [x] Pay Viola (400k) — CLEARED 2026-03-18
+- [x] Call Standard Chartered — agreed to pay arrears end of March 2026
 - [ ] Do NOT take any new loans to cover these debts
 
 ### Non-Negotiables This Phase
@@ -53,9 +53,8 @@ When money hits your account, follow this sequence *before* going anywhere or do
 ### Debt Payoff Order (Snowball Method)
 1. MTN loan (220k) — clear immediately
 2. Viola (400k) — clear immediately
-3. Standard Chartered arrears (2.4M) — clear within first 2 months of income
-4. Standard Chartered remaining balance (~10M) — continue 1.2M/month until done
-   - At 1.2M/month: cleared in ~8 months from when arrears are resolved
+3. Standard Chartered overdue (2,035,915) — pay by 30 March 2026
+4. Standard Chartered remaining balance (11,348,904) — 1,241,810/month, final payment Oct 2026 (8 months)
 
 ---
 

@@ -112,7 +112,7 @@ Use the template from [examples/outreach-templates.md](examples/outreach-templat
 ## Step 6 — Save and Create Tasks
 
 1. Save the full shortlist to:
-   `projects/client-acquisition/leads/[YYYY-MM-DD]-[industry-slug].md`
+   `pipeline/client-acquisition/leads/[YYYY-MM-DD]-[industry-slug].md`
 
 2. For each top 3 lead, create a Google Task via gws:
    ```bash
@@ -146,5 +146,5 @@ Use the template from [examples/outreach-templates.md](examples/outreach-templat
 ---
 
 Tasks created in Google Tasks: ✓
-Saved to: projects/client-acquisition/leads/[file]
+Saved to: pipeline/client-acquisition/leads/[file]
 ```

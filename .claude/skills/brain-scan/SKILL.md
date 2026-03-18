@@ -158,7 +158,7 @@ Output the full report in this format:
 ## Step 6 — Save the Report
 
 Save to:
-`projects/brain-scan/[YYYY-MM-DD]-report.md`
+`operations/brain-scan/[YYYY-MM-DD]-report.md`
 
 Create the directory if it doesn't exist.
 
@@ -185,10 +185,10 @@ Use pptxgenjs (run with `NODE_PATH=$(npm root -g) node script.js`).
 - No `#` prefix on hex colors (pptxgenjs requirement)
 - Use `NODE_PATH=$(npm root -g)` when running the script
 
-Save PPTX to: `projects/brain-scan/[YYYY-MM-DD]-report.pptx`
+Save PPTX to: `output/presentations/[YYYY-MM-DD]-brain-scan.pptx`
 
 After generating, run a content QA:
 ```bash
-python3 -m markitdown projects/brain-scan/[YYYY-MM-DD]-report.pptx
+python3 -m markitdown output/presentations/[YYYY-MM-DD]-brain-scan.pptx
 ```
 Check for missing content or leftover placeholders before reporting done.

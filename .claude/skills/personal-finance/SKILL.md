@@ -12,8 +12,8 @@ Use this skill when Simon asks about:
 
 ## Simon's Financial Profile
 
-Full snapshot: `projects/personal-finance/snapshot.md`
-Full plan: `projects/personal-finance/plan.md`
+Full snapshot: `career/personal-finance/snapshot.md`
+Full plan: `career/personal-finance/plan.md`
 
 **Key facts to always remember:**
 - Age 33, no pension, no savings
@@ -47,7 +47,7 @@ Then output this sequence:
 ### 3. Monthly Budget Review
 When Simon wants a budget check:
 - Ask: "What came in this month? What went out?"
-- Compare to the plan in `projects/personal-finance/plan.md`
+- Compare to the plan in `career/personal-finance/plan.md`
 - Flag if Wants bucket is overspent
 - Flag if savings were skipped
 
@@ -57,7 +57,7 @@ Current debts (update these as they're paid):
 - MTN: 220k (urgent)
 - Viola: 400k (urgent)
 
-When a debt is cleared → update `projects/personal-finance/snapshot.md`
+When a debt is cleared → update `career/personal-finance/snapshot.md`
 
 ### 5. Retirement Check-in
 Trigger when: income has been stable for 3+ months AND emergency fund is building
@@ -92,5 +92,5 @@ When Simon gets a lump sum:
 ---
 
 ## Files to Update Over Time
-- `projects/personal-finance/snapshot.md` — update debt balances as they change
-- `projects/personal-finance/plan.md` — update phase as Simon progresses
+- `career/personal-finance/snapshot.md` — update debt balances as they change
+- `career/personal-finance/plan.md` — update phase as Simon progresses
