@@ -3,6 +3,7 @@ CLAUDE.local.md
 .claude/settings.local.json
 node_modules/
 credentials/
+!credentials/stripe-backup-code.md
 
 # Generated output files — not committed to git
 output/presentations/
