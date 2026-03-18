@@ -95,6 +95,7 @@ Company logos, profile, and brand files live in `brand-assets/`. Always use thes
 - New quarter → update `context/goals.md`
 - Decision made → log in `decisions/log.md`
 - Recurring workflow → build a skill in `.claude/skills/`
+- Major structural change (new folder, new project, new skill, restructure) → update `README.md` and `CLAUDE.md`
 
 ## Output
 All generated files (presentations, reports, exports, drafts) go in `output/`.
