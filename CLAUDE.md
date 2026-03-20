@@ -28,8 +28,9 @@ Get Elastic Technologies Ltd to its first paying clients and revenue. Everything
 ### Ventures
 SaaS products and digital ventures live in `ventures/`.
 
-- `ventures/statuscash/` — WhatsApp Status advertising marketplace (concept stage)
-- `ventures/polish-my-cv/` — SaaS product in development
+- `ventures/statuscash/` — WhatsApp Status advertising marketplace (functional MVP, completing admin + withdrawal flows)
+- `ventures/polish-my-cv/` — AI CV optimization SaaS (live on Vercel, two payment rails working, needs backend persistence)
+- `ventures/rotarise/` — Social networking app for Rotary/Rotaract clubs (live on Android/iOS/Web, v1.3.3+33)
 
 ### Clients
 Active client work lives in `clients/`. One folder per client.

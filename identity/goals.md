@@ -6,7 +6,7 @@ _Last updated: 2026-03-20_
 
 1. Close first paying client
 2. Send at least 10 proposals/pitch decks to prospective clients
-3. Launch Polish My CV MVP
+3. ~~Launch Polish My CV MVP~~ **DONE** — deployed on Vercel with live payments (Relworx + Stripe). Next: backend persistence + email receipts.
 4. Build consistent TikTok presence for AI Challenge
 5. Establish regular communication rhythm with Alvin and Phillip
 

@@ -12,6 +12,8 @@ Format: [YYYY-MM-DD] DECISION: ... | REASONING: ... | CONTEXT: ...
 
 [2026-03-20] DECISION: Archive job-hunter skill | REASONING: Job hunting directly conflicts with the primary goal — building Elastic Technologies and closing clients. Having it as an active skill creates an escape hatch that undermines focus. Archived to archives/skills/job-hunter/ in case situation changes | CONTEXT: Skill system alignment with goals
 
+[2026-03-20] DECISION: Define and start building Rotarise monetisation layer | REASONING: App is live at v1.3.3+33 with donation flow, club shop, and payment integration already built — platform makes $0. Three revenue streams confirmed: donation commission, club subscriptions, shop commission. Fastest path to revenue is adding fee deduction logic to existing payment flows (low code effort, immediate impact) | CONTEXT: Rotarise venture review session
+
 [2026-03-20] DECISION: Add explicit daily and weekly workflow order to CLAUDE.md | REASONING: Without a defined order, skills compete for attention. The workflow (operator-mode → daily-briefing → execute → content-engine) removes ambiguity about what to run and when | CONTEXT: Skill system cleanup pass
 
 ---
