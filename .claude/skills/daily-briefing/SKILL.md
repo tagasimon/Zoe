@@ -201,7 +201,24 @@ If today is not Monday, skip this step entirely.
 
 ---
 
-## Step 5 — Compose the Briefing
+## Step 5 — Operator Check
+
+Read these three files:
+- `identity/goals.md` — current Q1 goals
+- `challenge/zero-to-1000/log.md` — last entry date
+- `operations/weekly-review/logs/` — most recent review (if any)
+
+Flag any of the following:
+- A Q1 goal with zero activity this week → label `IGNORED`
+- Challenge log silent for 3+ days → state exact number of days
+- Last weekly review missing or older than 8 days → flag it
+- "Next focus" from last review not started → name the item
+
+Keep this section short. One bullet per flag. If nothing to flag: skip the section entirely.
+
+---
+
+## Step 6 — Compose the Briefing
 
 Output in this format:
 
@@ -279,11 +296,18 @@ Output in this format:
 
 ---
 
+**Operator Flags** *(only if Step 5 found issues)*
+
+- [flag 1]
+- [flag 2]
+
+---
+
 **Focus Recommendation**
 
-Based on everything above — calendar, tasks, emails, finances — give Simon his top 1–2 priorities for today in one direct sentence.
+Based on everything above — calendar, tasks, emails, finances, and operator flags — give Simon his top 1–2 priorities for today in one direct sentence. Money and client work come first.
 
-Example: *"Pay MTN loan before anything else — it's 2 days overdue. Then send the ERP proposal to Kampala Breweries."*
+Example: *"Pay MTN loan before anything else — it's 2 days overdue. Then send the proposal to Kampala Breweries."*
 
 ---
 

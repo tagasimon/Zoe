@@ -1,6 +1,6 @@
 # Personal Finance Snapshot — Simon Kazooba
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-20_
 
 ## Status: ACTIVE — First client payment received
 
@@ -28,6 +28,45 @@ _Last updated: 2026-03-18_
 | Viola (personal loan) | 0 | — | **CLEARED 2026-03-18** |
 | Alvin (loaned out) | 25,000 | — | Simon lent to Alvin 2026-03-18 — to be repaid |
 | **Total Debt** | **~11,514,453** | | |
+
+---
+
+## Cash Position (March 2026)
+
+| | UGX |
+|---|---|
+| Client deposit received | +1,500,000 |
+| **Total spent (see log below)** | **-1,113,500** |
+| **Cash remaining (est.)** | **~386,500** |
+| Receivable — Alvin (loan) | +25,000 |
+| Receivable — client balance | +1,000,000 |
+| **Total available incl. receivables** | **~1,411,500** |
+| StanChart due 30 March | -3,277,725 |
+| MTN balance | -165,549 |
+| **Gap to cover** | **~-2,031,773** |
+
+---
+
+## Spending Log (March 2026)
+
+| Date | Description | Amount (UGX) | Category |
+|------|-------------|--------------|----------|
+| 2026-03-19 | Viola — contractor payment (initial) | 200,000 | Business |
+| 2026-03-19 | Melody — nephew gift | 50,000 | Personal |
+| 2026-03-19 | Fuel | 100,000 | Transport |
+| 2026-03-19 | Chicken feed | 20,000 | Home |
+| 2026-03-19 | Online bills | 50,000 | Bills |
+| 2026-03-19 | Groceries | 12,500 | Food |
+| 2026-03-19 | Internet | 5,000 | Bills |
+| 2026-03-19 | MTN loan partial repayment | 100,000 | Debt |
+| 2026-03-19 | Cash on hand | 50,000 | — |
+| 2026-03-18 | Viola — balance + bonus (200k + 20k) | 220,000 | Business |
+| 2026-03-18 | Alvin — loan | 25,000 | Loan out |
+| 2026-03-18 | Rotary donation | 21,000 | Giving |
+| 2026-03-20 | Buju (girlfriend) | 200,000 | Personal |
+| 2026-03-20 | Matia — farm/clean-up labour | 45,000 | Home |
+| 2026-03-20 | Groceries + gas | 65,000 | Food/Home |
+| **Total** | | **1,163,500** | |
 
 ---
 
