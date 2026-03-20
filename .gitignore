@@ -1,3 +1,4 @@
+.DS_Store
 .env
 CLAUDE.local.md
 .claude/settings.local.json
@@ -6,11 +7,14 @@ credentials/
 !credentials/stripe-backup-code.md
 
 # Generated output files — not committed to git
-output/presentations/
-output/reports/
-output/exports/
-output/drafts/
-!output/.gitkeep
+output/presentations/*
+output/reports/*
+output/exports/*
+output/drafts/*
+!output/presentations/.gitkeep
+!output/reports/.gitkeep
+!output/exports/.gitkeep
+!output/drafts/.gitkeep
 
 # Common generated file types (anywhere in repo)
 *.pptx
