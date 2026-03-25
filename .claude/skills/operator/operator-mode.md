@@ -20,6 +20,8 @@ Read all of the following. Do not skip any.
 - `challenge/zero-to-1000/log.md` — last 7 days of entries
 - `challenge/zero-to-1000/revenue.md` — total revenue to date
 - `operations/weekly-review/logs/` — list files, read the most recent one
+- `clients/README.md` — active clients list
+- Every file in `clients/*/brief.md` — read the `## Payment` section of each
 
 Extract:
 - What are the active Q1 goals?
@@ -27,6 +29,7 @@ Extract:
 - How much revenue has been made?
 - What were the "Next Week Focus" items from the last weekly review?
 - Are those focus items done or not?
+- Which clients have an outstanding balance? What is the amount and deadline?
 
 ---
 
@@ -72,6 +75,14 @@ Output in this exact format:
 ### Operator Mode — [DATE]
 
 **Revenue to date:** $[X] / $1,000
+
+**Client Balances Outstanding:**
+
+| Client | Project | Balance (UGX) | Deadline | Status |
+|--------|---------|--------------|----------|--------|
+| [name] | [project] | [amount] | [date] | OVERDUE / DUE SOON / OK |
+
+*(Skip table if all clients are paid up. Mark OVERDUE if past deadline. Mark DUE SOON if deadline is within 7 days.)*
 
 **Gaps identified:**
 - [gap 1 — be specific]
