@@ -1,7 +1,7 @@
 # SchoolConnect — Client Brief
 
 ## Client
-- **Name:** TBD (school client)
+- **Name:** Atubo Stephen
 - **Project:** SchoolConnect — multi-tenant parent-school communication platform
 - **Pilot school:** St Johns Primary School, Uganda (450 students)
 - **Target go-live:** Term 2 2026
@@ -24,6 +24,17 @@
 5. Results upload
 6. Fee entry
 7. Announcements with SMS broadcast
+
+## Payment
+
+| # | Date | Amount (UGX) | Status | Notes |
+|---|------|-------------|--------|-------|
+| 1 | 2026-03-25 | 1,500,000 | Received | First payment from Atubo Stephen |
+
+- **Total received:** 1,500,000 UGX
+- **Balance outstanding:** 1,000,000 UGX
+- **Project deadline:** 2026-03-31
+- **Total contract value:** 2,500,000 UGX *(received + balance)*
 
 ## Notes
 - Multi-tenant — every table has `school_id`, RLS enforced
