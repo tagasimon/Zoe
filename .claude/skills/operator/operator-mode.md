@@ -22,6 +22,7 @@ Read all of the following. Do not skip any.
 - `operations/weekly-review/logs/` — list files, read the most recent one
 - `clients/README.md` — active clients list
 - Every file in `clients/*/brief.md` — read the `## Payment` section of each
+- `career/personal-finance/expenses.md` — all recurring bills and one-off expenses
 
 Extract:
 - What are the active Q1 goals?
@@ -30,6 +31,7 @@ Extract:
 - What were the "Next Week Focus" items from the last weekly review?
 - Are those focus items done or not?
 - Which clients have an outstanding balance? What is the amount and deadline?
+- Which bills/expenses are due within the next 7 days? Which are OVERDUE?
 
 ---
 
@@ -83,6 +85,14 @@ Output in this exact format:
 | [name] | [project] | [amount] | [date] | OVERDUE / DUE SOON / OK |
 
 *(Skip table if all clients are paid up. Mark OVERDUE if past deadline. Mark DUE SOON if deadline is within 7 days.)*
+
+**Upcoming Bills (next 14 days):**
+
+| Bill | Amount (UGX) | Due Date | Status |
+|------|-------------|----------|--------|
+| [name] | [amount] | [date] | OVERDUE / DUE SOON / UPCOMING |
+
+*(Skip table if nothing due in 14 days. Flag OVERDUE in bold. Flag DUE SOON if within 7 days.)*
 
 **Gaps identified:**
 - [gap 1 — be specific]
