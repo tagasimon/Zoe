@@ -4,7 +4,9 @@ Each client gets their own folder: `clients/client-name/`
 
 ## Active Clients
 
-_None yet — first client incoming._
+| Client | Project | Status | Codebase |
+|--------|---------|--------|----------|
+| School (unnamed) | SchoolConnect — parent-school communication platform | In development | `/Users/kazoobasimon/Code/school-mgt-platform` |
 
 ## Folder Template
 

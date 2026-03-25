@@ -94,7 +94,37 @@ Output in this exact format:
 | 2 | [task] | MONEY / BUILD / CONTENT | [one-line reason] |
 | 3 | [task] | MONEY / BUILD / CONTENT | [one-line reason] |
 | 4 | [task] | MONEY / BUILD / CONTENT | [one-line reason] |
-| 5 | [task] | MONEY / BUILD / CONTENT | [one-line reason] |
+
+Limit to 3–4 tasks. Do not pad with low-value work.
+
+---
+
+**Day Plan**
+
+Map tasks to time blocks. Use realistic working hours. Prioritise deep work first. No task switching within a block.
+
+```
+07:00–09:00 → [Deep work — build task or highest-priority item]
+09:00–09:30 → Break
+09:30–11:00 → [Second priority — money action or continued build]
+11:00–12:00 → [Content recording, testing, or outreach]
+12:00–13:00 → Break / lunch
+```
+
+Add afternoon blocks only if the work genuinely requires it:
+
+```
+14:00–15:30 → [Optional — third task if not done]
+15:30–16:00 → Admin, replies, quick actions
+```
+
+Rules for the Day Plan:
+- Deep work (building) always gets the first block — best focus window
+- Money actions (outreach, proposals, follow-ups) go in the second block
+- Content goes last — it feeds off what was done, not before
+- Do not schedule more than 6 hours of productive work total
+- If a task can't fit — cut it, don't extend the day
+- Call out if the plan looks like yesterday with no progress on revenue
 
 ---
 
@@ -108,7 +138,8 @@ Output in this exact format:
 
 - Tasks must be specific and actionable ("Send proposal to [Company]" not "work on proposals")
 - If revenue is $0 and there is no active client pursuit — Task 1 is always client outreach or a revenue attempt
-- Do not output motivational language — output tasks
+- Do not output motivational language — output tasks and a schedule
 - If the same gap appears for the second week in a row — call it a pattern, not a bad day
 - This skill decides what gets done today. daily-briefing handles logistics (calendar, email). Operator mode handles execution.
 - If goals and calendar conflict — goals win
+- The Day Plan is not aspirational — it is the actual schedule. Build it to be followed.

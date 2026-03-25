@@ -11,10 +11,12 @@ output/presentations/*
 output/reports/*
 output/exports/*
 output/drafts/*
+output/videos/*
 !output/presentations/.gitkeep
 !output/reports/.gitkeep
 !output/exports/.gitkeep
 !output/drafts/.gitkeep
+!output/videos/.gitkeep
 
 # Common generated file types (anywhere in repo)
 *.pptx
@@ -22,3 +24,6 @@ output/drafts/*
 *.docx
 *.pdf
 *.zip
+*.mp4
+*.mov
+*.webm

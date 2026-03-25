@@ -135,6 +135,63 @@ Rules:
 
 ---
 
+## Step 6b — Schedule Optimization
+
+Before writing the report, analyze the week's schedule and execution patterns.
+
+**Analyze:**
+- When work actually happened (check log timestamps and dates if available)
+- Days where challenge log has no entries — those were dead days
+- Tasks that were pushed to the next day repeatedly
+- Days with multiple incomplete items — overloaded plans
+- Any notes in logs about when things felt harder or easier
+
+**Identify:**
+- Energy pattern: which days/times produced the most output
+- Distractions or inconsistencies: tasks started but not finished in one session
+- Sequencing problems: e.g. content attempted before builds were done, breaking focus
+- Overload: more than 3–4 major tasks planned or logged in one day
+
+**Optimize:**
+Based on what actually happened — not what should have happened in theory — suggest a realistic daily structure for next week.
+
+Rules for the optimization:
+- If the previous structure failed, do not repeat it
+- Build and revenue actions go first — they require the most focus
+- Content comes after builds — it should be based on what was done, not before
+- Maximum 6 hours of productive work per day
+- Breaks are not optional — include them
+- Do not suggest more than 4 major time blocks per day
+
+Output format for this step (used in the saved report):
+
+```
+SCHEDULE OPTIMIZATION
+
+What went wrong:
+- [Specific failure — e.g. "content attempted at 7am before builds were done"]
+- [e.g. "5 tasks planned Monday, 2 completed — overloaded"]
+
+What worked:
+- [e.g. "Tuesday morning deep work block produced most output"]
+- [e.g. "Breaks taken between sessions prevented burnout"]
+  (If nothing worked — write "Nothing — schedule failed entirely")
+
+Energy pattern:
+[e.g. "High output in mornings, significant drop after 13:00"]
+[e.g. "No visible pattern — inconsistent days made analysis difficult"]
+
+Recommended daily structure for next week:
+07:00–09:30 → Deep work (build / revenue action)
+09:30–10:00 → Break
+10:00–11:30 → Second priority (client outreach or continued build)
+11:30–12:30 → Content (record or write)
+12:30–13:30 → Break / lunch
+14:00–15:00 → Admin, replies, quick tasks (optional if needed)
+```
+
+---
+
 ## Step 7 — Write and Save the Report
 
 Save the report to:
@@ -172,6 +229,20 @@ Use this exact template:
 1. MISTAKE: [...] → LESSON: [...]
 2. MISTAKE: [...] → LESSON: [...]
 3. MISTAKE: [...] → LESSON: [...]
+
+## Schedule Optimization
+
+**What went wrong:**
+- [specific schedule failure]
+
+**What worked:**
+- [what held]
+
+**Energy pattern:**
+[description]
+
+**Recommended daily structure for next week:**
+[time blocks]
 
 ## Next Week Focus
 

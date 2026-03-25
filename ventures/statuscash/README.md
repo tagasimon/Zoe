@@ -4,7 +4,7 @@ WhatsApp Status advertising marketplace. Posters earn money by posting sponsored
 
 **Codebase:** `/Users/kazoobasimon/Code/statuscash`
 **Status:** Functional MVP — core marketplace working. Completing admin + withdrawal flows before beta.
-**Last updated:** 2026-03-20
+**Last updated:** 2026-03-25
 
 ---
 
@@ -56,7 +56,8 @@ WhatsApp Status advertising marketplace. Posters earn money by posting sponsored
 - Profile management (both roles)
 - Payment status tracking and Relworx webhook support
 - 25 database migrations with full RLS policies
-- Admin dashboard skeleton
+- Admin dashboard with user list, role/status filters, detail pages, campaign cancel/delete
+- Incomplete profile banner on poster dashboard
 
 ---
 
@@ -66,7 +67,7 @@ WhatsApp Status advertising marketplace. Posters earn money by posting sponsored
 - Admin submission review UI — API routes exist, UI not built
 - Withdrawal flow — schema and constants ready, API + UI pending
 - Fraud detection — fraud_flags table exists, logic pending
-- Join request approval UI — API routes exist, UI pending
+- Join request approval UI — moved to admin (not advertiser). API routes exist, full UI pending
 
 ---
 
@@ -137,8 +138,13 @@ Performance-based social advertising network built on messaging platforms. Expan
 
 | Commit | Message |
 |--------|---------|
+| 299b92e | Add additional proof submissions and clickable campaign proof view |
+| 4e58c22 | Redesign campaign detail page as 2-column layout (image left, details right) |
+| 1fe712b | Add sign out confirmation dialog with logout icon |
+| 5a2af51 | Redesign submit proof page — spacious upload zones, cleaner layout |
+| 378edf1 | Initial proof requires screenshot only, not screen recording |
+| d0d8232 | Move join request approvals from advertisers to admins |
+| c1ad721 | Add role and status filters to admin users page |
+| efc5098 | Add campaign/user detail pages and campaign cancel/delete for admin |
+| 90baaae | Add incomplete profile banner to poster dashboard |
 | 98430fe | fixes |
-| a9729b0 | Fix onboarding: use admin client to bypass RLS on profile update |
-| cfea9a8 | Simplify campaign creation: fixed price, 1-week duration, optional max posters |
-| 4078bae | Add campaign flow, two-stage proof system, and profile updates |
-| 3a821f8 | Require phone number at earner signup |

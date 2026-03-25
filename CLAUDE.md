@@ -31,12 +31,14 @@ SaaS products and digital ventures live in `ventures/`.
 - `ventures/statuscash/` — WhatsApp Status advertising marketplace (functional MVP, completing admin + withdrawal flows)
 - `ventures/polish-my-cv/` — AI CV optimization SaaS (live on Vercel, two payment rails working, needs backend persistence)
 - `ventures/rotarise/` — Social networking app for Rotary/Rotaract clubs (live on Android/iOS/Web, v1.3.3+33)
+- `ventures/vee-eye-pee/` — Luxury private concierge modelling agency platform for East Africa (MVP built, team: Simon + Alvin + Raymond, codebase: `/Users/kazoobasimon/Code/vee-eye-pee`)
 
 ### Clients
 Active client work lives in `clients/`. One folder per client.
 
 - `clients/_template/` — Use this when onboarding a new client
 - `clients/README.md` — Active client list
+- `clients/schoolconnect/` — SchoolConnect (parent-school platform, web + mobile) · Codebase: `/Users/kazoobasimon/Code/school-mgt-platform`
 
 ### Brand
 Personal brand system lives in `brand/`.

@@ -5,7 +5,7 @@ AI-powered CV optimization SaaS. Users upload their CV (PDF/DOCX), paste a job d
 **Codebase:** `/Users/kazoobasimon/Code/cv_spark`
 **Live name:** polishmycv (rebranded from cv_spark)
 **Status:** Production-ready. Actively deployed on Vercel. Live monetisation with two payment rails.
-**Last updated:** 2026-03-20
+**Last updated:** 2026-03-25
 
 ---
 
@@ -124,6 +124,7 @@ Stripe PaymentElement mounts → `stripe.confirmPayment()` → on success → tr
 
 | Commit | Message |
 |--------|---------|
+| 0793818 | redesign: apply Apple-inspired design simplification to home page |
 | c7f88ed | fix: Rename exported function to proxy in proxy.ts |
 | 3e18dde | fix: Rename middleware.ts to proxy.ts + use x-vercel-ip-country for geo |
 | e64ef03 | fix: Update Stripe API version to 2026-02-25.clover |
@@ -132,7 +133,6 @@ Stripe PaymentElement mounts → `stripe.confirmPayment()` → on success → tr
 | 647cf51 | feat: Add interview prep, promo codes, and UX improvements |
 | 8cd0a35 | feat: Add dynamic currency conversion with country selector |
 | 55980ac | rebrand: Rename to polishmycv and expand to East Africa |
-| 9a1fb66 | feat: replace Stripe with Relworx mobile money payments |
 
 ---
 
