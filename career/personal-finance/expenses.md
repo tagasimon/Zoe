@@ -18,6 +18,14 @@ _Operator mode reads this file and flags anything due within 7 days._
 
 ---
 
+## Trials — CANCEL BEFORE CHARGED
+
+| # | Expense | Cost if not cancelled | Cancel By | Status | Notes |
+|---|---------|----------------------|-----------|--------|-------|
+| 1 | LinkedIn Premium Company Page | $69 USD/month | **2026-04-24** | UPCOMING | Testing for polish-my-cv growth. Free trial started 2026-03-26. |
+
+---
+
 ## Annual / One-Off Bills
 
 | # | Expense | Amount (UGX) | Due Date | Status | Notes |

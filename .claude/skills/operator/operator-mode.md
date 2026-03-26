@@ -32,6 +32,7 @@ Extract:
 - Are those focus items done or not?
 - Which clients have an outstanding balance? What is the amount and deadline?
 - Which bills/expenses are due within the next 7 days? Which are OVERDUE?
+- Are there any active trials in the `## Trials` section that need to be cancelled within 7 days?
 
 ---
 
@@ -93,6 +94,14 @@ Output in this exact format:
 | [name] | [amount] | [date] | OVERDUE / DUE SOON / UPCOMING |
 
 *(Skip table if nothing due in 14 days. Flag OVERDUE in bold. Flag DUE SOON if within 7 days.)*
+
+**Trials to Cancel:**
+
+| Trial | Cost if Charged | Cancel By | Days Left |
+|-------|----------------|-----------|-----------|
+| [name] | [cost] | [date] | [N days] |
+
+*(Only show if cancel date is within 14 days. Flag CANCEL TODAY if ≤1 day left.)*
 
 **Gaps identified:**
 - [gap 1 — be specific]
