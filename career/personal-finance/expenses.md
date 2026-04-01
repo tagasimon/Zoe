@@ -10,11 +10,26 @@ _Operator mode reads this file and flags anything due within 7 days._
 
 ---
 
+## Loan Repayments
+
+| # | Loan | Balance (UGX) | Monthly Payment (UGX) | Due Date | Status | Notes |
+|---|------|--------------|----------------------|----------|--------|-------|
+| 1 | Standard Chartered personal loan | 11,348,904 | 1,241,810 | 30th | UPCOMING | Rate: 17.5% reducing. Final payment: Oct 2026. Arrears 2,035,915 agreed end of March 2026. Agreement: 20103430992531 |
+| 2 | MTN Mobile Loan | 165,549 | 165,549 (full balance) | ASAP | UPCOMING | Clear immediately — small amount |
+
+---
+
 ## Monthly Bills
 
 | # | Expense | Amount (UGX) | Due Date | Frequency | Status | Notes |
 |---|---------|-------------|----------|-----------|--------|-------|
-| 1 | | | | Monthly | UPCOMING | |
+| 1 | Internet | 100,000 | 26th | Monthly | UPCOMING | |
+| 2 | Claude Code | ~80,000 ($20 USD) | 25th | Monthly | UPCOMING | |
+| 3 | Google One | ~16,000 ($4 USD) | 5th | Monthly | UPCOMING | |
+| 4 | YouTube Premium | ~16,000 ($4 USD) | 25th | Monthly | UPCOMING | |
+| 5 | Son's school fees | 333,333 | Per term (1,000,000 billed every 3 months) | Monthly equivalent | UPCOMING | |
+| 6 | Toastmasters dues | 50,000 | Every 6 months (300,000) | Monthly equivalent | UPCOMING | |
+| 7 | Rotaract dues | 12,500 | Annual (150,000) | Monthly equivalent | UPCOMING | |
 
 ---
 

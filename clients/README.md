@@ -6,7 +6,7 @@ Each client gets their own folder: `clients/client-name/`
 
 | Client | Project | Status | Codebase |
 |--------|---------|--------|----------|
-| School (unnamed) | SchoolConnect — parent-school communication platform | In development | `/Users/kazoobasimon/Code/school-mgt-platform` |
+| Atubo Stephen | SchoolConnect — parent-school communication platform | **OVERDUE** — deadline was 2026-03-31. 1,000,000 UGX outstanding. | `/Users/kazoobasimon/Code/school-mgt-platform` |
 
 ## Folder Template
 

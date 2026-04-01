@@ -5,7 +5,7 @@ AI-powered CV optimization SaaS. Users upload their CV (PDF/DOCX), paste a job d
 **Codebase:** `/Users/kazoobasimon/Code/cv_spark`
 **Live name:** polishmycv (rebranded from cv_spark)
 **Status:** Production-ready. Actively deployed on Vercel. Live monetisation with two payment rails.
-**Last updated:** 2026-03-25
+**Last updated:** 2026-03-26
 
 ---
 
@@ -68,7 +68,6 @@ Upload CV (PDF/DOCX) → paste job description → pay → AI rewrites CV for AT
 - Promo code system with discount stacking
 - Exit intent popup (mouse-leave-top)
 - Sticky CTA bar (activates after 700px scroll)
-- Social proof notification toasts
 - Vercel Analytics
 
 ---
@@ -124,6 +123,7 @@ Stripe PaymentElement mounts → `stripe.confirmPayment()` → on success → tr
 
 | Commit | Message |
 |--------|---------|
+| 1660601 | remove fake social proof popups and live counter |
 | 0793818 | redesign: apply Apple-inspired design simplification to home page |
 | c7f88ed | fix: Rename exported function to proxy in proxy.ts |
 | 3e18dde | fix: Rename middleware.ts to proxy.ts + use x-vercel-ip-country for geo |

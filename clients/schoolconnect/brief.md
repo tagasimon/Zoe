@@ -33,7 +33,7 @@
 
 - **Total received:** 1,500,000 UGX
 - **Balance outstanding:** 1,000,000 UGX
-- **Project deadline:** 2026-03-31
+- **Project deadline:** 2026-03-31 (**OVERDUE — missed as of 2026-04-01**)
 - **Total contract value:** 2,500,000 UGX *(received + balance)*
 
 ## Notes
