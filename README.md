@@ -16,6 +16,17 @@ Open Claude Code in this directory → Zoe is live
 
 ---
 
+## Operating Docs
+
+- `AI_HANDOFF.md` — how any AI assistant should pick up Zoe
+- `ZOE_OPERATING_MANUAL.md` — how Simon should use Zoe daily and weekly
+- `knowledge/sops/zoe-folder-architecture.md` — required folders, merge recommendations, cleanup order
+- `knowledge/sops/zoe-skills-and-commands.md` — skills catalog and when to use each skill
+- `knowledge/sops/zoe-project-docs-standard.md` — documentation standard for clients, ventures, jobs, content, and sessions
+- `knowledge/sops/zoe-life-coach-questions.md` — questions Zoe should use to sharpen Simon's operating system
+
+---
+
 ## Directory Structure
 
 ```
@@ -80,7 +91,7 @@ Skills are repeatable workflows Zoe can run on demand. They live in `.claude/ski
 | `weekly-standup` | End-of-week summary → WhatsApp update for Alvin and Phillip |
 | `toastmasters-speech-writer` | Draft 5-7 min prepared speeches (humorous, storytelling) |
 | `tiktok-writer` | Write TikTok scripts for AI Challenge and brand content |
-| `job-hunter` | Scrape Uganda job boards, tailor CV, write cover letter, draft Gmail application |
+| `career-job-applications` | Search job boards, score fit, prepare tailored CV/cover letter packets, and update the tracker without submitting silently |
 
 ### Skills Backlog
 - `email-triage` — Read inbox, sort by priority, create tasks

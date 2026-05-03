@@ -1,0 +1,9 @@
+Date,Type,Category,Description,Amount UGX,Account Or Method,Status,Related Person Or Client,Due Date,Priority,Notes
+2026-03-18,Income,Client payment,"SchoolConnect deposit received",1500000,Unknown,Received,SchoolConnect,,High,"First paying client deposit"
+2026-05-03,Receivable,Client balance,"SchoolConnect outstanding balance",1000000,Unknown,Outstanding,SchoolConnect,2026-05-04,Critical,"Collect or agree written payment plan"
+2026-03-20,Debt,Loan,"Standard Chartered personal loan balance",11348904,Bank,Active,Standard Chartered,,Critical,"Snapshot says overdue amount existed in March; verify current position"
+2026-03-20,Debt,Mobile loan,"MTN Mobile Loan",165549,MTN,Active,MTN,,High,"Verify current balance"
+2026-05-03,Income,Job search,"No reliable income; job search active",0,,Active,Simon,,Critical,"Income stability is top operating constraint"
+2026-05-03,Target,Survival number,"Minimum monthly survival income",2000000,,Target,Simon,,Critical,"Below this number, Zoe prioritises income actions aggressively"
+2026-05-03,Target,Stability number,"Monthly income stability target",10000000,,Target,Simon,,High,"This is the income level that makes Simon feel stable"
+2026-05-03,Target,Job salary,"Minimum acceptable monthly salary",3000000,,Target,Simon,,High,"Target roles: software/mobile developer; remote or Kampala onsite"

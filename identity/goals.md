@@ -1,6 +1,20 @@
 # Goals
 
-_Last updated: 2026-04-01_
+_Last updated: 2026-05-03_
+
+## Current Operating Reality — 2026-05-03
+
+- Simon has no reliable income right now.
+- Elastic Technologies has a running business, but revenue is not yet stable.
+- Job search is active and necessary until income stabilises.
+- Minimum survival income: UGX 2,000,000/month.
+- Stable income target: UGX 10,000,000/month.
+- Target job: software/mobile developer, remote or Kampala onsite.
+- Minimum acceptable salary: UGX 3,000,000/month.
+- Fastest Elastic offer to sell: websites and apps.
+- Zero to $1,000 challenge has ended unless restarted.
+- Procrastination and too many simultaneous projects are known failure modes.
+- Zoe is authorised to challenge avoidance directly and track personal habits with the same strictness as business goals.
 
 ## Q1 2026 — Review (Jan–Mar)
 
@@ -13,10 +27,18 @@ _Last updated: 2026-04-01_
 ## Q2 2026 (Apr–Jun)
 
 1. Collect 1,000,000 UGX outstanding from SchoolConnect — priority this week
-2. Close a second paying client — outbound via ERP pipeline or referrals
-3. Complete StatusCash beta — withdrawal flow, AI verification, end-to-end test
-4. Add backend persistence to Polish My CV (Supabase) + email receipts
-5. Send at least 10 outbound proposals this quarter
+2. Stabilise income — continue client acquisition while actively preparing/submitting strong job applications with Simon approval
+3. Close a second paying client — outbound via ERP pipeline, website audits, or referrals
+4. Complete StatusCash beta — withdrawal flow, AI verification, end-to-end test
+5. Add backend persistence to Polish My CV (Supabase) + email receipts
+6. Send at least 10 outbound proposals this quarter
+
+## Current Focus Constraints
+
+- Active client work: SchoolConnect.
+- Active personal projects: personal products only where they support near-term income.
+- Recommended product focus: Polish My CV first, then StatusCash.
+- Recommended pause: Rotarise and Vee Eye Pee until they have a concrete paying customer/revenue test.
 
 ## 5-Year Personal Brand Goal (2026–2030)
 

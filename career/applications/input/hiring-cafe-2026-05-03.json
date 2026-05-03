@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Roadie",
+    "role": "Mobile Engineer, Flutter",
+    "source": "Hiring Cafe",
+    "url": "https://hiring.cafe/jobs/mobile-developer/locations/new-hampshire-united-states",
+    "location": "United States / Remote",
+    "job_type": "Full-time",
+    "apply_method": "portal",
+    "apply_url": "https://hiring.cafe/jobs/mobile-developer/locations/new-hampshire-united-states",
+    "email": "",
+    "salary": "Unknown",
+    "description": "Remote full-time Flutter mobile engineering role posted 2 days ago. Requires 3+ years software development, 2+ years Flutter and Dart, mobile application development, API integration, backend familiarity, and strong problem-solving and collaboration. Tools mentioned include Flutter, Dart, Android, Swift, PostgreSQL, Redis, Kafka, Firebase, GraphQL, AWS, Docker, Kubernetes, Git, GitHub, and CircleCI."
+  },
+  {
+    "company": "Eventeny",
+    "role": "Mobile App Engineer",
+    "source": "Hiring Cafe",
+    "url": "https://hiring.cafe/jobs/mobile-developer/locations/new-hampshire-united-states",
+    "location": "United States / Remote",
+    "job_type": "Full-time",
+    "apply_method": "portal",
+    "apply_url": "https://hiring.cafe/jobs/mobile-developer/locations/new-hampshire-united-states",
+    "email": "",
+    "salary": "$65k-$80k/yr",
+    "description": "Remote full-time mobile app engineering role posted 1 week ago for Eventeny, a cloud platform for managing large-scale festivals and events. Requires a bachelor's degree, 1 to 2+ years of mobile development experience, proficiency in Flutter and PHP, RESTful API experience, and strong UI/UX understanding."
+  },
+  {
+    "company": "Headspace",
+    "role": "Senior Software Engineer, Mobile",
+    "source": "Hiring Cafe",
+    "url": "https://hiring.cafe/jobs/mobile-developer/locations/new-hampshire-united-states",
+    "location": "United States / Remote",
+    "job_type": "Full-time",
+    "apply_method": "portal",
+    "apply_url": "https://hiring.cafe/jobs/mobile-developer/locations/new-hampshire-united-states",
+    "email": "",
+    "salary": "$122k-$196k/yr",
+    "description": "Remote full-time senior mobile engineering role posted 2 weeks ago. Requires 5+ years of mobile development, 2+ years native Android or iOS, 2+ years Flutter, mobile architecture experience, testing strategies, AI-enabled features, and strong collaboration. Tools mentioned include Flutter, Android SDK, iOS SDK, Git, and CI/CD."
+  },
+  {
+    "company": "Pulse Labs",
+    "role": "Senior Mobile Software Engineer",
+    "source": "Hiring Cafe",
+    "url": "https://hiring.cafe/jobs/mobile-developer/locations/new-hampshire-united-states",
+    "location": "United States / Remote",
+    "job_type": "Full-time",
+    "apply_method": "portal",
+    "apply_url": "https://hiring.cafe/jobs/mobile-developer/locations/new-hampshire-united-states",
+    "email": "",
+    "salary": "Unknown",
+    "description": "Remote full-time senior mobile software engineering role posted 4 days ago. Requires a bachelor's or master's degree in computer science or engineering, 7 to 10 years in cross-platform mobile development, shipping large-scale apps and SDKs, experience with React Native, Flutter, or Xamarin, JavaScript, Dart, Swift, Kotlin, Firebase, Git, Agile delivery, UI/UX, REST, and strong teamwork."
+  }
+]

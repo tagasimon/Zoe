@@ -1,5 +1,11 @@
 # Zero to 1000 — Rules
 
+## Status
+
+**Ended as of 2026-05-03.**
+
+This challenge should not drive daily priorities unless Simon explicitly restarts it. Current priority is income stability through SchoolConnect, job applications, websites/apps sales, and tightly-scoped personal product work.
+
 ## What This Is
 
 A public challenge: go from 0 to $1,000/month in revenue from digital products or content —

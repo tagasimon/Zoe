@@ -1,0 +1,2 @@
+Client,Contact Person,Project,Status,Contract Value UGX,Received UGX,Outstanding UGX,Deadline,Days Overdue,Next Action,Next Follow Up,Priority,Codebase,Notes
+SchoolConnect,Atubo Stephen,"Parent-school communication platform",Overdue,2500000,1500000,1000000,2026-03-31,33,"Confirm remaining deliverables and request/payment-plan outstanding balance",2026-05-04,Critical,/Users/kazoobasimon/Code/school-mgt-platform,"First paying client; project deadline missed; collect balance"

@@ -1,0 +1,42 @@
+[
+  {
+    "company": "Hiring Cafe Sample Product Co",
+    "role": "Flutter Mobile Developer",
+    "source": "Hiring Cafe",
+    "url": "https://hiring.cafe/sample/flutter-mobile-developer",
+    "location": "Remote",
+    "job_type": "Full-time",
+    "apply_method": "portal",
+    "apply_url": "https://hiring.cafe/sample/flutter-mobile-developer/apply",
+    "email": "",
+    "salary": "Unknown",
+    "description": "We are looking for a mid-senior Flutter Mobile Developer to build production-grade Android and iOS apps, integrate REST APIs, collaborate with product teams, write tests, and improve mobile performance. Experience with Flutter, Dart, Firebase, Git, and API integrations is required."
+  },
+  {
+    "company": "Kampala Fintech Labs",
+    "role": "Full-Stack Software Developer",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/jobs/view/sample-full-stack-software-developer",
+    "location": "Kampala / Hybrid",
+    "job_type": "Full-time",
+    "apply_method": "email",
+    "apply_url": "",
+    "email": "careers@example.com",
+    "salary": "Unknown",
+    "description": "The role requires a software developer with 4+ years of experience building web applications, REST APIs, SQL-backed systems, automation workflows, and integrations. Python, Django, ASP.NET Core, Git, cloud deployment, documentation, and product thinking are strong advantages."
+  },
+  {
+    "company": "RemoteOps Automation",
+    "role": "AI Workflow Automation Engineer",
+    "source": "Wellfound",
+    "url": "https://wellfound.com/jobs/sample-ai-workflow-automation-engineer",
+    "location": "Remote worldwide",
+    "job_type": "Contract",
+    "apply_method": "portal",
+    "apply_url": "https://wellfound.com/jobs/sample-ai-workflow-automation-engineer/apply",
+    "email": "",
+    "salary": "Unknown",
+    "description": "Build AI-assisted workflow automations, bots, internal tools, and API integrations for operations teams. Strong candidates have experience with Python, process optimization, RPA, business systems, documentation, and shipping pragmatic tools for non-technical teams."
+  }
+]
+

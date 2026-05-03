@@ -1,0 +1,309 @@
+---
+name: weekly-review
+description: Analyses Simon's week across all active areas. Identifies what was done, what was avoided, where time was wasted, and what must change. Brutally honest. No encouragement unless earned. Saves a report to operations/weekly-review/logs/.
+argument-hint: "[optional: week ending date YYYY-MM-DD, default today]"
+user-invocable: true
+disable-model-invocation: true
+---
+
+# Weekly Review
+
+**Week ending:** $ARGUMENTS (default: today)
+
+---
+
+## Step 1 — Read Everything
+
+Read all of the following. Do not skip any.
+
+**Challenge:**
+- `challenge/zero-to-1000/log.md`
+- `challenge/zero-to-1000/revenue.md`
+
+**Operations:**
+- `operations/weekly-review/logs/` — list files, read the previous week's report if it exists
+
+**Brand:**
+- `brand/metrics.md`
+- `brand/content/ideas/README.md`
+
+**Clients / Pipeline:**
+- `pipeline/client-acquisition/` — scan for any activity files
+- `clients/` — scan for any active client folders
+
+**Identity:**
+- `identity/goals.md` — what Simon said he was going to do this quarter
+
+**Ventures:**
+- `ventures/` — list folders, check for any build-plan.md files updated this week
+
+Extract from all sources:
+- Actions taken this week (with dates)
+- Revenue earned this week
+- Content posted this week
+- Clients contacted or moved forward
+- Builds started or shipped
+- Goals from identity/goals.md that were touched vs ignored
+
+---
+
+## Step 2 — Build the Evidence Record
+
+List everything that actually happened this week. Evidence only — no interpretation yet.
+
+Format:
+```
+WHAT HAPPENED THIS WEEK
+
+Revenue: $[X] | Sources: [list]
+Content posted: [X pieces] | Platforms: [list]
+Clients: [contacted X / proposal sent to Y / closed Z]
+Builds: [X started / Y shipped / Z killed]
+Challenge log entries: [X this week]
+Weekly review (last week): [written on DATE / not written]
+```
+
+If a category has no entries — write `NOTHING`. Do not soften it.
+
+---
+
+## Step 3 — Compare Against Goals
+
+Read `identity/goals.md`. For each stated goal, assess progress:
+
+| Goal | Status | Evidence |
+|------|--------|----------|
+| [goal 1] | [MOVING / STALLED / IGNORED] | [what happened or didn't] |
+| [goal 2] | [MOVING / STALLED / IGNORED] | [what happened or didn't] |
+| ... | | |
+
+Mark as:
+- **MOVING** — something concrete happened toward this goal this week
+- **STALLED** — was worked on previously but no activity this week
+- **IGNORED** — no activity ever or clearly deprioritised
+
+---
+
+## Step 4 — Identify Mistakes
+
+Look for:
+
+**Output mistakes (things not done):**
+- Goals marked STALLED or IGNORED with no clear reason
+- Challenge log silent for 3+ days
+- No content posted despite having ideas in backlog
+- No client outreach despite client acquisition being a top goal
+- Weekly review from last week missing
+
+**Execution mistakes (things done wrong):**
+- Time spent on low-priority work while high-priority items sat untouched
+- Ideas started but not finished (check builds folder)
+- Content ideas generated but not recorded
+- Plans made that were not acted on
+
+**Pattern mistakes (recurring problems):**
+- Compare this week to last week's report — are the same mistakes happening again?
+- If yes: name the pattern explicitly. It is not a bad week — it is a habit.
+
+Be specific. Name what was avoided. Do not generalise.
+
+---
+
+## Step 5 — Extract Lessons
+
+For each mistake identified, state the lesson in one direct sentence.
+
+Format:
+```
+MISTAKE: [what happened]
+LESSON: [the rule or behaviour change that would prevent it]
+```
+
+No more than 5 lessons. If there are more mistakes, prioritise the ones with the most impact.
+
+---
+
+## Step 6 — Set Next Week Focus
+
+Based on the goals assessment and mistakes, define the 3 most important things for next week.
+
+Rules:
+- All 3 must be actions, not intentions ("send 5 client outreach messages" not "focus on clients")
+- At least 1 must be revenue-related
+- At least 1 must move the challenge forward
+- If the same item appeared in last week's next focus and was not done — it goes to position #1 and gets flagged
+
+---
+
+## Step 6b — Schedule Optimization
+
+Before writing the report, analyze the week's schedule and execution patterns.
+
+**Analyze:**
+- When work actually happened (check log timestamps and dates if available)
+- Days where challenge log has no entries — those were dead days
+- Tasks that were pushed to the next day repeatedly
+- Days with multiple incomplete items — overloaded plans
+- Any notes in logs about when things felt harder or easier
+
+**Identify:**
+- Energy pattern: which days/times produced the most output
+- Distractions or inconsistencies: tasks started but not finished in one session
+- Sequencing problems: e.g. content attempted before builds were done, breaking focus
+- Overload: more than 3–4 major tasks planned or logged in one day
+
+**Optimize:**
+Based on what actually happened — not what should have happened in theory — suggest a realistic daily structure for next week.
+
+Rules for the optimization:
+- If the previous structure failed, do not repeat it
+- Build and revenue actions go first — they require the most focus
+- Content comes after builds — it should be based on what was done, not before
+- Maximum 6 hours of productive work per day
+- Breaks are not optional — include them
+- Do not suggest more than 4 major time blocks per day
+
+Output format for this step (used in the saved report):
+
+```
+SCHEDULE OPTIMIZATION
+
+What went wrong:
+- [Specific failure — e.g. "content attempted at 7am before builds were done"]
+- [e.g. "5 tasks planned Monday, 2 completed — overloaded"]
+
+What worked:
+- [e.g. "Tuesday morning deep work block produced most output"]
+- [e.g. "Breaks taken between sessions prevented burnout"]
+  (If nothing worked — write "Nothing — schedule failed entirely")
+
+Energy pattern:
+[e.g. "High output in mornings, significant drop after 13:00"]
+[e.g. "No visible pattern — inconsistent days made analysis difficult"]
+
+Recommended daily structure for next week:
+07:00–09:30 → Deep work (build / revenue action)
+09:30–10:00 → Break
+10:00–11:30 → Second priority (client outreach or continued build)
+11:30–12:30 → Content (record or write)
+12:30–13:30 → Break / lunch
+14:00–15:00 → Admin, replies, quick tasks (optional if needed)
+```
+
+---
+
+## Step 7 — Write and Save the Report
+
+Save the report to:
+`operations/weekly-review/logs/[WEEK-ENDING-DATE]-review.md`
+
+Use this exact template:
+
+```md
+# Weekly Review — Week ending [DATE]
+
+## What Was Done
+
+| Area | Activity | Result |
+|------|----------|--------|
+| Revenue | | |
+| Content | | |
+| Clients | | |
+| Builds | | |
+| Challenge | | |
+
+## Goals Assessment
+
+| Goal | Status | Evidence |
+|------|--------|----------|
+| | | |
+
+## Mistakes
+
+1. [Mistake — be specific]
+2. [Mistake]
+3. [Mistake]
+
+## Lessons
+
+1. MISTAKE: [...] → LESSON: [...]
+2. MISTAKE: [...] → LESSON: [...]
+3. MISTAKE: [...] → LESSON: [...]
+
+## Schedule Optimization
+
+**What went wrong:**
+- [specific schedule failure]
+
+**What worked:**
+- [what held]
+
+**Energy pattern:**
+[description]
+
+**Recommended daily structure for next week:**
+[time blocks]
+
+## Next Week Focus
+
+1. [Specific action — revenue]
+2. [Specific action — challenge]
+3. [Specific action — other high priority]
+
+---
+_Generated by weekly-review skill | [DATE]_
+```
+
+---
+
+## Step 8 — Output to Screen
+
+After saving, output the full report to the conversation.
+
+Then add one final block:
+
+---
+
+### Verdict
+
+[2–4 sentences. The honest assessment of this week. Was it a good week or a bad one? What is the single thing that would have made it better? What is Simon at risk of if the same patterns continue next week?]
+
+**Repeat offenders** *(if same mistake appeared in previous review)*:
+- [Pattern name — "X weeks in a row"]
+
+---
+
+## Step 9 — Draft Team WhatsApp Update
+
+Based on the week's activity (from Step 2), write a short message Simon can send to Alvin and Phillip.
+
+Rules:
+- Under 100 words
+- Casual — team chat, not a corporate email
+- Only include what's relevant to each person
+- Skip sections if nothing applies to that person
+
+Format:
+```
+Hey guys, quick week update
+
+[2-3 sentences on what moved this week]
+
+Alvin — [financial item if any / "nothing for you this week"]
+Phillip — [BD/lead item if any / "nothing for you this week"]
+
+Next week: [top 1-2 focus areas]
+```
+
+Save to: `operations/weekly-review/logs/[WEEK-ENDING-DATE]-standup.md`
+
+---
+
+## Review Rules
+
+- Do not frame bad weeks as "learning opportunities" — call them bad weeks
+- Do not add encouragement at the end of a bad week
+- If a week was genuinely good — say so clearly and without hedging
+- The verdict must include a risk statement: what happens if next week looks the same
+- Mistakes that repeat across weeks must be named as patterns, not incidents
+- The report is saved regardless of how bad the week was — the record is the point

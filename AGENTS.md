@@ -67,7 +67,7 @@ Summaries, history, and people context live in `memory/`.
 ### Operations
 Internal tools, audits, and weekly reviews live in `operations/`.
 
-- `operations/brain-scan/` — Weekly Claude session audits
+- `operations/brain-scan/` — Weekly Codex session audits
 - `operations/weekly-review/` — Weekly review logs (template + logs/)
 
 ### Pipeline
@@ -84,7 +84,7 @@ Personal development lives in `career/`.
 - `career/applications/` — Job applications
 
 ## Skills
-Skills live in `.claude/skills/skill-name/SKILL.md`. Build a skill when you notice the same workflow repeating.
+Skills live in `.Codex/skills/skill-name/SKILL.md`. Build a skill when you notice the same workflow repeating.
 
 ### Daily Workflow
 1. `/operator-mode` — decide what to do today (goals, challenge progress, gaps)
@@ -114,12 +114,12 @@ Skills live in `.claude/skills/skill-name/SKILL.md`. Build a skill when you noti
 
 **Reflection**
 - `weekly-review` — Full week analysis across all areas. Mistakes, patterns, goals assessment, next 3 priorities. Saves report + WhatsApp team standup to operations/weekly-review/logs/.
-- `brain-scan` — Weekly audit of Claude sessions. Surfaces what to build as skills, plugins, or CLAUDE.md entries.
+- `brain-scan` — Weekly audit of Codex sessions. Surfaces what to build as skills, plugins, or AGENTS.md entries.
 
 **Business**
 - `client-prospecting` — Search web for leads by industry/service, score fit, write outreach messages, create Google Tasks.
 - `personal-finance` — Debt tracking, budgeting, savings plan, and 48-hour spending protocol for when money arrives.
-- `website-audit-outreach` — Audits a prospect's website for SEO, performance, mobile, security, and features. Generates a branded HTML report and personalized WhatsApp/email/LinkedIn outreach. Run with a URL or industry+location+count to build a lead pipeline.
+- `career-job-applications` — Search job boards, score fit, prepare tailored CV/cover letter packets, and update the application tracker without submitting silently.
 
 **Other**
 - `toastmasters-speech-writer` — Draft prepared speeches (5-7 min, humorous, storytelling).
@@ -135,7 +135,7 @@ Log important decisions in `decisions/log.md` — append-only.
 Format: `[YYYY-MM-DD] DECISION: ... | REASONING: ... | CONTEXT: ...`
 
 ## Memory
-Claude Code maintains persistent memory across conversations. Patterns, preferences, and learnings are saved automatically.
+Codex maintains persistent memory across conversations. Patterns, preferences, and learnings are saved automatically.
 - To save something specific: tell Zoe "remember that I always want X"
 - Memory + identity files + decision log = gets smarter over time without re-explaining
 
@@ -153,8 +153,8 @@ Company logos, profile, and brand files live in `brand-assets/`. Always use thes
 - Focus shifted → update `identity/goals.md` and `identity/vision.md`
 - New quarter → update `identity/goals.md`
 - Decision made → log in `decisions/log.md`
-- Recurring workflow → build a skill in `.claude/skills/`
-- Major structural change → update `README.md` and `CLAUDE.md`
+- Recurring workflow → build a skill in `.Codex/skills/`
+- Major structural change → update `README.md` and `AGENTS.md`
 
 ## After Each Session
 - Update `memory/summaries/` if anything important was covered
