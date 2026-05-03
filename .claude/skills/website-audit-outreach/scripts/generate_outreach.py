@@ -41,9 +41,11 @@ def generate_outreach(data, company_name, service="software"):
     lead_issue = pick_lead_issue(top_issues)
 
     # Translate technical errors into human language
+    from urllib.parse import urlparse
+    domain = urlparse(url).netloc or url
     if site_down:
         hook = "your website is currently down — visitors can't reach it at all"
-        human_issue = "Your website (kampalalodges.com) appears to be completely offline — anyone searching for your hotel online gets an error page."
+        human_issue = f"Your website ({domain}) appears to be completely offline — anyone searching for your organisation online gets an error page."
     elif lead_issue and "Connection failed" not in lead_issue and "not accessible" not in lead_issue:
         hook = lead_issue[0].lower() + lead_issue[1:]
         human_issue = lead_issue
@@ -103,8 +105,9 @@ simonkazooba@elastic.ug | Kampala, Uganda"""
 
     # --- LinkedIn connection note (300 char limit) ---
     n_issues = len(top_issues)
+    issue_word = "issue" if n_issues == 1 else "issues"
     linkedin = (
-        f"Hi, I audited {company_name}'s website and found {n_issues} issues "
+        f"Hi, I audited {company_name}'s website and found {n_issues} {issue_word} "
         f"affecting Google ranking and leads. Happy to share a free report — would that be useful?"
     )[:300]
 
