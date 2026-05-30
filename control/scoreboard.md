@@ -18,7 +18,7 @@ _Updated: 2026-05-05 | Review every Monday morning._
 
 | Client | Contract | Paid | Outstanding | Status |
 |--------|----------|------|-------------|--------|
-| SchoolConnect | 2,500,000 | 1,500,000 | **1,000,000** | Overdue — chase |
+| SchoolConnect | 2,500,000 | 2,200,000 | **300,000** | 700k collected 2026-05-05 — chase final 300k |
 
 ---
 

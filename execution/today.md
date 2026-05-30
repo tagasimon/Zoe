@@ -1,4 +1,4 @@
-# Today — 2026-05-05
+# Today — 2026-05-06
 
 _Hard limit: 3 tasks. Ranked by money → delivery → build._
 _If it's not here, it doesn't exist today._
@@ -6,29 +6,30 @@ _If it's not here, it doesn't exist today._
 ---
 
 ## Task 1 — CRITICAL
-**What:** Collect SchoolConnect outstanding balance (1,000,000 UGX)
-**How:** Message Atubo Stephen directly. Send balance confirmation with payment details.
-**Done when:** Payment received OR payment date confirmed in writing.
+**What:** Chase Atubo Stephen for final 300,000 UGX
+**How:** Send one message — state the exact amount, give a deadline (Friday 2026-05-08), ask for confirmation.
+**Done when:** Payment received OR specific payment date confirmed in writing.
 
 ## Task 2
-**What:**
-**How:**
-**Done when:**
+**What:** Send 5 Polish My CV outreach messages
+**How:** Use the 5 messages from today's operator mode. Target job seekers on WhatsApp/LinkedIn.
+**Done when:** 5 messages sent and logged in outreach.md.
 
 ## Task 3
-**What:**
-**How:**
-**Done when:**
+**What:** Post one Polish My CV piece on LinkedIn or WhatsApp status
+**How:** Write 3–5 lines: the problem (CVs get filtered before humans read them), the solution (Polish My CV), the link.
+**Done when:** Post is live and visible.
 
 ---
 
 ## Today's Deep Work Block
-**From:** ___:___ **To:** ___:___
-**Working on:** Task ___
+**From:** 09:00 **To:** 12:00
+**Working on:** Tasks 2 + 3
 
 ## Not Today (parking lot — do not touch)
--
--
+- StatusCash
+- Rotarise / VEE-EYE-PEE
+- Any new features on SchoolConnect
 
 ---
 
